@@ -1,0 +1,14 @@
+name: "AppSales - Now Free"
+url: "https://www.app-sales.net/nowfree/"
+output: "app-sales-nowfree.xml"
+
+# Structure identifiée dans le HTML
+selector: "div.card-panel.sale-list-item"
+title_selector: "p.app-name"
+link_selector: "div.sale-list-action a"
+date_selector: ""
+preview_selector: "p.app-dev"
+image_selector: "div.app-icon img"
+
+link_attribute: "href"
+image_attribute: "src"
