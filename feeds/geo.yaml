@@ -1,0 +1,19 @@
+name: "Geo.fr - Articles complets"
+url: "https://www.geo.fr/"
+output: "geo.xml"
+
+# Sélecteurs pour la LISTE des articles sur la page d'accueil
+selector: "a.contentCard"
+title_selector: ".contentCard-title"
+link_selector: ""
+date_selector: ""
+preview_selector: ".contentCard-leadText"
+image_selector: "img.apply-ratio"
+link_attribute: "href"
+image_attribute: "src"
+
+# Activation du mode "article complet"
+full_article: true
+full_article_selectors:
+  - ".articleBody-draft"
+  - ".articleWall-paid"
