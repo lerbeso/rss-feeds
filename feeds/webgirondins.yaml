@@ -1,0 +1,13 @@
+name: "WebGirondins - Fil Info"
+url: "https://www.webgirondins.com/fil-info"
+output: "webgirondins.xml"
+
+selector: "div.article.infinite-item"
+title_selector: "h2 > a"
+link_selector: "h2 > a"
+date_selector: "div.date"
+preview_selector: "div.preview > a"
+image_selector: "div.image-container img"
+
+link_attribute: "href"
+image_attribute: "src"
