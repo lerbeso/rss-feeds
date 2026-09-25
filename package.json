@@ -1,0 +1,10 @@
+{
+  "name": "rss-feeds",
+  "version": "1.0.0",
+  "description": "Générateur de flux RSS pour plusieurs sites",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "js-yaml": "^4.1.0",
+    "p-limit": "^5.0.0"
+  }
+}
